@@ -16,7 +16,6 @@ void setup() {
 
 void loop() {
   stateMas = digitalRead(buttonMas);
-  delay(dt1);
   stateMenos = digitalRead(buttonMenos);
   delay(dt1);
 
